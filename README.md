@@ -10,30 +10,29 @@ Clean and prepare raw HR employee data by handling missing values, correcting da
 
 ## 🧾 Project Description
 This project is designed to clean HR data entered manually by the user, allowing:
+- Continuous entry of employee records
+- Handling of missing values (None) for both numerical and categorical data
+- Automatic imputation using:
+  - Mean for numerical fields (Age, Salary, Experience)
+  - Mode for categorical fields (Department, Attrition, Education, Gender)
+- Data is saved in a CSV file which gets updated on every run
 
-.Continuous entry of employee records
-.Handling of missing values (None) for both numerical and categorical data
-.Automatic imputation using:
-  .Mean for numerical fields (Age, Salary, Experience)
-  .Mode for categorical fields (Department, Attrition, Education, Gender)
-.Data is saved in a CSV file which gets updated on every run
+## 🛠 Technologies Used
+- Python 3
+- Pandas
+- NumPy
 
-🛠 Technologies Used
-.Python 3
-.Pandas
-.NumPy
+## 📁 Input Fields
+- EmployeeID (int)
+- Age (int)
+- Department (categorical)
+- Attrition (Yes/No)
+- Salary (float)
+- Experience (float)
+- Education Level (HighSchool/Bachelor/Master/PhD)
+- Gender (Male/Female/Other)
 
-📁 Input Fields
-.EmployeeID (int)
-.Age (int)
-.Department (categorical)
-.Attrition (Yes/No)
-.Salary (float)
-.Experience (float)
-.Education Level (HighSchool/Bachelor/Master/PhD)
-.Gender (Male/Female/Other)
-
-🚀 How to Run This Project
+## 🚀 How to Run This Project
 1. Clone the repository:
     git clone https://github.com/Arunav0275/GUVI_Project1.git
     cd GUVI_Project1
