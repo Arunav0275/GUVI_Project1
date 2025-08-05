@@ -3,12 +3,12 @@
 📌 Problem Statement
 Clean and prepare raw HR employee data by handling missing values, correcting data types, and standardizing formats.
 
-✅ Expected Outcome:-
- \n.No missing values
- \n.Correct data types
- \n.Encoded categorical columns
+## ✅ Expected Outcome:
+- No missing values  
+- Correct data types  
+- Encoded categorical columns
 
-🧾 Project Description
+##🧾 Project Description
 This project is designed to clean HR data entered manually by the user, allowing:
 
 .Continuous entry of employee records
