@@ -64,8 +64,6 @@ except:
 
 df_updated = pd.concat([df_existing, df_new], ignore_index=True)
 
-df_updated.replace('Unknown', np.nan, inplace=True)
-
 for col in ['Age','Salary','Experience']:
     df_updated[col] = df_updated[col].fillna(df_updated[col].mean())
 
