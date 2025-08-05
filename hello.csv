@@ -1,0 +1,3 @@
+EmployeeID,Age,Department,Attrition,Salary,Experience,Education,Gender
+1,23,IT,No,23000.0,4.0,Bachelor,Male
+2,43,Finance,Yes,43000.0,7.0,Bachelor,Female
